@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue</title>
     <link rel="stylesheet" href="styles/main.css">
-    <title>Page 1 - Indice</title>
 </head>
 <body>
     <div class="container">
-        <h1>Couche N°1</h1>
-        <p>La maison de Bob le bricoleur (en minuscules).</p>
-        <input type="text" id="codeInput" placeholder="Entrez le code ici">
-        <button id="validateButton">Valider</button>
+        <h1>Que fais-tu là??</h1>
+        <p>
+            Tu n'essayerais pas de me voler mon coeur, hein?
+        </p>
+        <button id="startButton">Démarrer</button>
     </div>
-    <script src="src/scripts/page1.js"></script>
+    <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+            window.location.href = 'page1.html';
+        });
+    </script>
 </body>
 </html>
