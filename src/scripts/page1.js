@@ -16,5 +16,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
-<script src="src/scripts/page1.js"></script>
