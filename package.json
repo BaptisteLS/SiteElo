@@ -1,0 +1,19 @@
+{
+  "name": "site-code-indice",
+  "version": "1.0.0",
+  "description": "A simple website with a code validation system across multiple pages.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server public"
+  },
+  "keywords": [
+    "code",
+    "validation",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

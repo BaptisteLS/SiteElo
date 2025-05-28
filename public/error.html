@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur - Mauvais code</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Erreur</h1>
+        <p>Attends, tu travailles chez Lactalis??</p>
+        <img src="../src/assets/loose.png" alt="Erreur" style="max-width:300px;width:100%;margin:20px 0;">
+        <br>
+        <button id="backButton">Retour</button>
+    </div>
+    <script>
+        document.getElementById('backButton').addEventListener('click', function() {
+            window.history.back();
+        });
+    </script>
+</body>
+</html>
